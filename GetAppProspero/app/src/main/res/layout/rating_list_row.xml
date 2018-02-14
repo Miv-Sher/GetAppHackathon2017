@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:clickable="true"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/name"
+        android:textColor="@color/colorAccent"
+        android:text="Имя Фамилия/Ник"
+        android:textSize="16dp"
+        android:padding="4dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+         />
+
+    <TextView
+        android:id="@+id/sum"
+        android:textColor="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:text="2500"
+        android:padding="4dp"
+        android:textSize="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_width="150px"
+        android:layout_height="150px"
+        app:srcCompat="@mipmap/ic_face_black_24dp" />
+
+</RelativeLayout>

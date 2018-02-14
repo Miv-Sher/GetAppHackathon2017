@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/bottom_menu_costs"
+        android:enabled="true"
+        android:icon="@mipmap/ic_attach_money_black_24dp"
+        android:title="@string/text_costs"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/bottom_menu_budget"
+        android:enabled="true"
+        android:icon="@mipmap/ic_account_balance_wallet_black_24dp"
+        android:title="@string/text_budget"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/bottom_menu_history"
+        android:enabled="true"
+        android:icon="@mipmap/ic_history_black_24dp"
+        android:title="@string/text_history"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/bottom_menu_places"
+        android:enabled="true"
+        android:icon="@mipmap/ic_location_on_black_24dp"
+        android:title="@string/test_places"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/bottom_menu_profile"
+        android:enabled="true"
+        android:icon="@mipmap/ic_face_black_24dp"
+        android:title="@string/text_profile"
+        app:showAsAction="ifRoom" />
+</menu>
